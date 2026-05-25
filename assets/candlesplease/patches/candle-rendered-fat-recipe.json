@@ -1,0 +1,16 @@
+[
+  {
+    "op": "addmerge",
+    "file": "game:recipes/cooking/candle",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:fat-rendered"
+    },
+    "dependsOn": [
+      {
+        "modid": "boricalchemy"
+      }
+    ]
+  }
+]

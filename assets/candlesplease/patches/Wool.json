@@ -1,0 +1,27 @@
+[
+  {
+    "op": "addmerge",
+    "file": "game:recipes/cooking/candle",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wool:fibers-*"
+    },
+    "dependsOn": [
+      {
+        "modid": "wool"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "file": "wool:recipes/cooking/candle",
+    "path": "/0/enabled",
+    "value": false,
+    "dependsOn": [
+      {
+        "modid": "wool"
+      }
+    ]
+  }
+]

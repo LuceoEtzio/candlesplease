@@ -1,0 +1,11 @@
+{
+  "type": "content",
+  "modid": "candlesplease",
+  "name": "Candles Please",
+  "description" : "One paraffin and wool candle, coming up!",
+  "authors": ["Luceo"],
+  "version": "1.0.0",
+  "dependencies": { 
+	"game": "1.22.2"
+  }
+}

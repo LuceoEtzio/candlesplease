@@ -1,0 +1,27 @@
+[
+  {
+    "op": "addmerge",
+    "file": "game:recipes/cooking/candle",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "boricalchemy:paraffinwax"
+    },
+    "dependsOn": [
+      {
+        "modid": "boricalchemy"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "file": "boricalchemy:recipes/cooking/paraffinwax/paraffinwaxcandle",
+    "path": "/enabled",
+    "value": false,
+    "dependsOn": [
+      {
+        "modid": "boricalchemy"
+      }
+    ]
+  }
+]
