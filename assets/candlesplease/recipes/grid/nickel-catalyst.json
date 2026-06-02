@@ -1,0 +1,29 @@
+[
+  {
+    "ingredientPattern": "HN_,NBN,_N_",
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "shapeless": false,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "tags": ["tool-hammer"],
+        "isTool": true
+      },
+      "N": {
+        "type": "item",
+        "code": "game:nugget-pentlandite"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:stone-bauxite"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "nickel-catalyst",
+      "quantity": 5
+    }
+  }
+]

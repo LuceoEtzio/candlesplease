@@ -1,0 +1,24 @@
+[
+  {
+    "ingredientPattern": "F",
+    "width": 1,
+    "height": 1,
+    "recipeGroup": 1,
+    "shapeless": false,
+    "ingredients": {
+      "F": {
+        "type": "item",
+        "code": "fat-hydrogenated-nickel",
+        "returnedStack": {
+          "type": "item",
+          "code": "nickel-catalyst",
+          "quantity": 1
+        }
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "fat-hydrogenated"
+    }
+  }
+]

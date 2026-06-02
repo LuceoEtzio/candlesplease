@@ -1,15 +1,17 @@
-[
+[  
   {
+    // temporarily disabled until Expanded Foods fixes hardened lard
+    "enabled": false,
     "op": "addmerge",
     "file": "game:recipes/cooking/candle",
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "game:fat-rendered"
+      "code": "expandedfoods:hardlard"
     },
     "dependsOn": [
       {
-        "modid": "boricalchemy"
+        "modid": "expandedfoods"
       }
     ]
   }
